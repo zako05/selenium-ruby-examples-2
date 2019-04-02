@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BasePage	pages/base_page.rb	/^class BasePage$/;"	c
+DynamicLoading	pages/dynamic_loading.rb	/^class DynamicLoading < BasePage$/;"	c
+Login	pages/login.rb	/^class Login < BasePage$/;"	c
+click	pages/base_page.rb	/^  def click(locator)$/;"	f	class:BasePage
+example	pages/dynamic_loading.rb	/^  def example(example_number)$/;"	f	class:DynamicLoading
+failure_message_present?	pages/login.rb	/^  def failure_message_present?$/;"	f	class:Login
+find	pages/base_page.rb	/^  def find(locator)$/;"	f	class:BasePage
+finish_text_present?	pages/dynamic_loading.rb	/^  def finish_text_present?$/;"	f	class:DynamicLoading
+initialize	pages/base_page.rb	/^  def initialize(driver)$/;"	f	class:BasePage
+initialize	pages/login.rb	/^  def initialize(driver)$/;"	f	class:Login
+is_displayed?	pages/base_page.rb	/^  def is_displayed?(locator)$/;"	f	class:BasePage
+start	pages/dynamic_loading.rb	/^  def start$/;"	f	class:DynamicLoading
+success_message_present?	pages/login.rb	/^  def success_message_present?$/;"	f	class:Login
+type	pages/base_page.rb	/^  def type(text, locator)$/;"	f	class:BasePage
+visit	pages/base_page.rb	/^  def visit(url_path)$/;"	f	class:BasePage
+wait_for	pages/base_page.rb	/^  def wait_for(seconds = 15)$/;"	f	class:BasePage
+with	pages/login.rb	/^  def with(username,password)$/;"	f	class:Login
